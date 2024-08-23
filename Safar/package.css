@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,200;0,400;0,500;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&family=Lobster&family=Open+Sans&family=Poppins:ital,wght@0,200;0,400;0,500;1,400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./wallpaperflare.com_wallpaper.jpg);
+}
+.top-container{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.back-arrow a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px ;
+}
+
+.back-arrow a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 60px;
+    padding: 8px;
+}
+
+.section2 .container {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+
+}
+
+.section2 .container .items {
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(3, 3, 67);
+    border: 2.5px solid black;
+    border-radius: 12px;
+}
+
+.section2 .container .items .name {
+    text-align: center;
+    background-color: black;
+    height: 25px;
+    padding-top: 4px;
+    color: white;
+    margin: 0;
+}
+
+.section2 .container .items .price {
+    float: left;
+    padding-left: 10px;
+    display: block;
+    width: 100%;
+    color: rgb(255, 0, 0);
+    font-weight: 650;
+}
+
+.section2 .container .items .info {
+    padding-left: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.section2 .container .items .img img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 12px;
+    transition-duration: 0.8s;
+}
+
+.section2 .container .items .img {
+    overflow: hidden;
+    margin: 0;
+}
+
+.section2 .container .items:hover .img img {
+    transform: scale(1.2);
+    transition-duration: 0.8s;
+    border-radius: 12px;
+}
+#fun-zone{
+    padding-top: 50px;
+}
+.booking-container{
+    text-align: center; 
+}
+.booking-container h1{
+    background-color:black;
+    color: white;
+    padding: 6px;
+    border-radius: 40px;
+    
+}
+.booking-container h1:hover{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    padding: auto;
+}
+.booking-container a{
+    text-decoration: none;
+}
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./wallpaperflare.com_wallpaper.jpg);
+    background-position: bottom;
+    border-color: white;
+    border-style:solid;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 460px;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.social-media a {
+    margin: 20px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.social-media a:hover {
+    background-color: black;
+    color: yellow;
+}
+.footer2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.footer0 {
+    font-weight: 300;
+    transition-duration: 1s;
+}
+
+.footer0:hover {
+    color: rgb(243, 168, 7);
+}
+
+.footer2 .heading {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.footer3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    padding: 6px;
+    border-radius: 18px;
+}
+
+.footer2 .heading:hover {
+    color: rgb(243, 168, 7);
+}
+
+.footer2 .div:hover {
+    transform: scale(1.05);
+}
+
+.footer3 h4 {
+    margin: 0 10px;
+}
+
+.footer2 div {
+    margin: 10px;
+}
+
+.menu {
+    visibility: hidden;
+}
+
+.heading1 .ham:active {
+    color: red;
+}
+
+.items {
+    overflow: hidden;
+}
+
+.ham,
+.close {
+    cursor: pointer;
+}
+
+.footer0 h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+.heading {
+    background-color: black;
+    padding: 4px;
+    border-radius: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.div {
+    text-align: center;
+    cursor: pointer;
+}
+
+.div:hover {
+    color: rgb(243, 168, 7);
+}
+.package-heading h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 80px;
+}

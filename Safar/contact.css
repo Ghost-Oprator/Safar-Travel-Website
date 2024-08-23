@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,200;0,400;0,500;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&family=Lobster&family=Open+Sans&family=Poppins:ital,wght@0,200;0,400;0,500;1,400&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url(./contact-us/contact-us.jpg);
+    background-size:100%;
+}
+.top-container{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.contact-heading{
+  text-align: center;
+}
+.back-arrow a{
+  padding: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 40px;
+  padding: 10px;
+}
+.back-arrow a:hover{
+  padding: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 40px;
+  padding: 10px;
+}
+.contact-heading h1{
+  font-size: 55px;
+  color: white;
+}
+
+/* FORM */
+.main-container{
+  display: flex;
+}
+.form-container{
+  width: 42%;
+  margin-top: 60px;
+  margin-left: 158px;
+  height: 640px;
+  padding: 44px;
+  font-size: 18px;
+  color: white;
+  background-color: transparent;
+  backdrop-filter: blur(40px);
+  border-radius: 18px;
+  border-style: dashed;
+}
+form{
+  height: 595px;
+}
+input[type=text], input[type=email], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 2px 0 5px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1; 
+  border-radius: 18px; 
+}  
+.registerbtn {  
+  background-color:orange;  
+  color: white;  
+  padding: 10px 15px;  
+  margin: 6px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 1;
+  font-size: 20px;  
+  border-radius: 80px;
+}  
+.registerbtn:hover {  
+  opacity: 0.5;  
+}  
+
+/* STICKER */
+.calling{
+  display: flex;
+}
+.mail{
+  display: flex;
+}
+.address{
+  display: flex;
+}
+.office-time{
+  display: flex;
+}
+.icons{
+  font-size: 50px;
+  padding-right: 50px;
+  color: orange;
+
+}
+.tiles{
+  width: 42%;
+  margin-top: 70px;
+  margin-left: 225px;
+  height: 640px;
+  padding: 44px;
+  font-size: 18px;
+  color: white;
+  border-radius: 18px;
+}
+.icon-text1{
+  font-size: 22px;
+}
+.icon-text2{
+  font-size: 22px;
+}
+.icon-text3{
+  font-size: 22px;
+}
+.icon-text4{
+  font-size: 22px;
+}
+.icon-text1 h2,.icon-text2 h2,.icon-text3 h2,.icon-text4 h2{
+  color: orange;
+}
+
+
+/* FOOTER */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./wallpaperflare.com_wallpaper.jpg); 
+  /* background-color: rgb(45, 13, 69); */
+  background-position: bottom;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 440px;
+}
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 15px;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-wrap: wrap;
+}
+.social-media a {
+  margin: 20px;
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 20px;
+}
+.social-media a:hover{
+  background-color: black;
+  color: yellow;
+}
+.footer2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+.footer0 {
+  font-weight: 300;
+  transition-duration: 1s;
+}
+.footer0:hover {
+  color: rgb(243, 168, 7);
+}
+.footer2 .heading {
+  font-weight: 900;
+  font-size: 18px;
+}
+.footer3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  padding: 6px;
+  border-radius: 18px;
+}
+.footer2 .heading:hover {
+  color: rgb(243, 168, 7);
+}
+.footer2 .div:hover {
+  transform: scale(1.05);
+}
+.footer3 h4 {
+  margin: 0 10px;
+}
+.footer2 div {
+  margin: 10px;
+}
+.menu {
+  visibility: hidden;
+}
+.heading1 .ham:active {
+  color: red;
+}
+.items {
+  overflow: hidden;
+}
+.ham,
+.close {
+  cursor: pointer;
+}
+.footer0 h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+.heading{
+  background-color: black;
+  padding: 4px;
+  border-radius: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+.div{
+  text-align: center;
+  cursor: pointer;
+}
+.div:hover{
+  color: rgb(243, 168, 7);
+}

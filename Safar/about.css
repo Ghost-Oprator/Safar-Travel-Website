@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,200;0,400;0,500;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&family=Lobster&family=Open+Sans&family=Poppins:ital,wght@0,200;0,400;0,500;1,400&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url(./packages/about-us-wallpaper.jpg);
+}
+.back-arrow{
+    padding-left: 6px;
+    padding-top: 20px;
+}
+.back-arrow a{
+    padding-top: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 40px;
+}
+.back-arrow a:hover{
+    padding-top: 10px;
+    margin-left: 10px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+}
+.package-heading{
+    text-align: center;
+    font-size: 35px;
+}
+.package-heading h3{
+    color: white;
+}
+.text{
+    display: flex;
+    width: 100%;
+    
+}
+.welcome{
+    width: 20%;
+    margin-left: 160px;
+    background-color: rgb(224, 224, 31);
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+}
+.about-us{
+    width: 50%;
+    margin-left: 180px;
+    background-color: rgb(224, 224, 31);
+    border-radius: 12px;
+    padding: 12px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    background-color: #fff;
+    border-radius: 40px;
+    width: 20px;
+}
+
+form{
+  margin: 100px;
+  padding: 18px;
+  border-radius: 12px;
+  background: #fff;
+  width: 500px;
+  height:400  px;
+}
+.form-container{
+    display: flex;
+}
+form .box{
+    width: 92%;
+    padding: 0;
+    font-size: 16px;
+    color: #333;
+    margin: 8px;
+    border: 6px solid rgba(0,0,0,.3);
+    text-transform: none;
+}
+.box{
+    border-radius: 12px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 4px;
+    background: rgb(212, 43, 161);
+    color:white;
+    padding: 9px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 14px;
+}
+.btn:hover{
+    display: inline;
+    margin-top: 4px;
+    background-color: #fff;
+    color: rgb(212, 43, 161);
+    padding: 9px;
+    border: 2px solid rgb(212, 43, 161);
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 14px;
+}
+.address{
+    padding:130px;
+    color: #fff;
+    font-size: 20px;
+}
+.address p{
+    background-color: palevioletred;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+/* Review wala part */
+.chef-heading{
+   text-align: center;
+   margin-top: 70px;
+}
+.chef-heading h1{
+    font-size: 45px;
+}
+.chef1{
+    background-color:skyblue;
+    border-color: black;
+    border-radius: 12px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    width: 230px;
+    height: 300px;
+}
+.chef2{
+    background-color: skyblue;
+    border-color: black;
+    border-radius: 12px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    width: 230px;
+    height: 300px;
+}
+.chef3{
+    background-color: skyblue;
+    border-color: black;
+    border-radius: 12px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    width: 230px;
+    height: 300px;
+}
+.chef4{
+    background-color:skyblue;
+    border-color: black;
+    border-radius: 12px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    width: 230px;
+    height: 300px;
+}
+.profile{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.chef1:hover,.chef2:hover,.chef3:hover,.chef4:hover{
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+.chef-img{
+    border-radius: 2000px;
+    position: relative;
+    left: 35px;
+    top: 20px;
+    border-style: solid;
+    border-color: rgb(64, 70, 77);
+}
+.chef1 h2{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.chef2 h2{
+    position: relative;
+    top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.chef3 h2{
+    position: relative;
+    top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.chef4 h2{
+    position: relative;
+    top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.icons{
+    color: black;
+    position: relative;
+    top: 35px;
+    left: 70px;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+    width: 80px;
+}
+.review{
+    height: 520px;
+}
+.review-heading{
+   text-align: center;
+}
+.review-heading h1{
+    font-size: 50px;
+}
+.review-heading h2{
+    font-size: 25px;
+}
+.review-profile{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+}
+.client1{
+    width: 420px;
+    height: 220px;
+    border-color: black;
+    border-radius: 12px;
+    background-color:rgb(224, 224, 31);
+    border: 2px solid;
+}
+.client1:hover{
+    width: 420px;
+    height: 220px;
+    border-color: black;
+    border-radius: 12px;
+    background-color:white ;
+    border: 2px solid;
+}
+.client2{
+    width: 420px;
+    height: 220px;
+    border-color: black;
+    border-radius: 12px;
+    background-color:rgb(224, 224, 31);
+    border: 2px solid;
+}
+.client2:hover{
+    width: 420px;
+    height: 220px;
+    border-color: black;
+    border-radius: 12px;
+    background-color:white ;
+    border: 2px solid;
+}
+.client3{
+    width: 420px;
+    height: 220px;
+    border-color: black;
+    border-radius: 12px;
+    background-color:rgb(224, 224, 31);
+    border: 2px solid;
+}
+.client3:hover{
+    width: 420px;
+    height: 220px;
+    border-color: black;
+    border-radius: 12px;
+    background-color:white ;
+    border: 2px solid;
+}
+
+.client-p{
+    display: flex;
+}
+.client{
+    border-radius: 100px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.client-info{
+    height: 50px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.client-info h3{
+    font-family: 'Dancing Script', cursive;
+}
+.client1 p,.client2 p,.client3 p{
+    width: 390px;
+    position: relative;
+    left: 10px;
+    top: 50px;
+}
+
+
+
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./footer.jpg);
+    background-position: top;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 435px;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.social-media {
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    margin: 20px;
+    margin-top: 10px;
+}
+.social-media a{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 20px;
+}
+.social-media a:hover{
+    background-color: black;
+    color: yellow;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 20px;
+}
+.social-media a ion-icon {
+    color: white;
+    background-color: black;
+}
+
+.social-media a:hover ion-icon {
+    color: red;
+    transform: translateY(5px);
+}
+
+.footer2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.footer0 {
+    font-weight: 300;
+    transition-duration: 1s;
+}
+
+.footer0:hover {
+    color: rgb(243, 168, 7);
+}
+
+.footer2 .heading {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.footer3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    padding: 6px;
+    border-radius: 18px;
+}
+
+.footer2 .heading:hover {
+    color: rgb(243, 168, 7);
+}
+
+.footer2 .div:hover {
+    transform: scale(1.05);
+}
+
+.footer3 h4 {
+    margin: 0 10px;
+}
+
+.footer2 div {
+    margin: 10px;
+}
+
+.menu {
+    visibility: hidden;
+}
+
+.heading1 .ham:active {
+    color: red;
+}
+
+.items {
+    overflow: hidden;
+}
+
+.ham,
+.close {
+    cursor: pointer;
+}
+
+.footer0 h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+.heading {
+    background-color: black;
+    padding: 4px;
+    border-radius: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.div {
+    text-align: center;
+    cursor: pointer;
+}
+
+.div:hover {
+    color: rgb(243, 168, 7);
+}

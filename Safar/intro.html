@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safar</title>
+    <link rel="icon" href="./favicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar-container">
+                <div class="navbar-image">
+                    <img src="./safar-new-logo.png" alt="safar-logo" class="logo">
+                </div>
+                <div class="navbar-text">
+                    <div class="navbar-ul">
+                        <ul>
+                            <li><a href="intro.html">Home<span class="underline"></span></a></b></li>
+                            <li><a href="./package.html">Packages<span class="underline"></span></a></li>
+                            <li><a href="./book.html">Book Your Trip<span class="underline"></span></a></li>
+                            <li><a href="./contact.html">Contact Us<span class="underline"></span></a></li>
+                            <li><a href="./about.html">About Us<span class="underline"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="icons">
+                        <a href=""><div id="search-btn" class="fas fa-search"></div></a>
+                        <a href="#call-space"><div id="login-btn" class="fas fa-user" href="#call-space"></div></a>
+                        <a href=""><div id="menu-btn" class="fas fa-bars"></div></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="slider-container">
+            <div class="slider-text">
+                <h1>Discover Your World</h1>
+            </div>
+            <div class="slider-images"></div>
+        </div>
+        <div class="top-deals-text">
+            <h1>TOP DEALS</h1>
+            <p>We got the special deals for you right here, get the best deals at ₹50,000/-</p>
+        </div>
+        <div class="top-deals">
+            <div class="large">
+                <div class="large-image">
+                    <img src="./rafting.jpg" alt="rafting image" class="rafting">
+                </div>
+                <div class="large-text">
+                    <h2>Water Sports at Rishikesh</h2>
+                </div>
+            </div>
+            <div class="tiles">
+                 <div class="first-row-tile">
+                    <div class="first-half">
+                        <div class="first-half-image">
+                            <img src="./desert-safari.jpeg" alt="" class="second-tile">
+                        </div>
+                        <div class="first-half-text">
+                            <h2>Rajasthan</h2>
+                            <a href="./book.html">Book<span class="underline"></span></a>
+                        </div>
+                    </div>
+                    <div class="second-half">
+                        <div class="second-half-image">
+                            <img src="./andaman-tourism.jpg" alt="" class="third-tile">
+                        </div>
+                        <div class="second-half-text">
+                            <h2>Andaman & Nicobar</h2>
+                            <a href="./book.html">Book<span class="underline"></span></a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="first-row-tile">
+                    <div class="first-half">
+                        <div class="first-half-image">
+                            <img src="./forest.cms" alt="" class="second-tile">
+                        </div>
+                        <div class="third-half-text">
+                            <h2>West Bengal</h2>
+                            <a href="./book.html">Book<span class="underline"></span></a>
+                        </div>
+                    </div>
+                    <div class="second-half">
+                        <div class="second-half-image">
+                            <img src="./kerala-tourism.webp" alt="" class="third-tile">
+                        </div>
+                        <div class="fourth-half-text">
+                            <h2>Kerala</h2>
+                            <a href="./book.html">Book<span class="underline"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rajasthan-fort">
+            <div class="fort-text">
+                <h1>~Forts of Rajasthan~</h1>
+                <img src="./rajasthan-logo.png" alt="" class="raj-logo">
+            </div>
+            <div class="fort-booking">
+                <a href="./book.html">Book Your Trip</a>
+            </div>
+        </div>
+        <div class="space" id="call-space">
+            <div class="form-text">
+                <div class="form-title">Login</div>
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Full Name:</span>
+                            <input type="text" placeholder="Enter your Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">E-mail:</span>
+                            <input type="text" placeholder="Enter Email" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Phone No:</span>
+                            <input type="number" placeholder="Enter Phone no." required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Password:</span>
+                            <input type="password" placeholder="Password" required>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="Submit" value="Login">
+                    </div>
+                    <input type="checkbox" id="remember">
+                    <label for="remember">remember me</label>
+                    <p class="txt">forget password?<a href="#">click here</a></p>
+                    <p class="txt">don't have an account?<a href="#">register now</a></p>
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer0">
+            <h1>To Travel is to Live</h1>
+        </div>
+        <div class="footer1 ">
+            Connect with us at<div class="social-media">
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="product">
+                <div class="heading">Packages</div> 
+                <div class="div">cheapest</div>
+                <div class="div">Rating</div>
+                <div class="div">Pricing</div>
+                <div class="div">Adventure Sports</div>
+
+            </div>
+            <div class="services">
+                <div class="heading">Services</div>
+                <div class="div">Return</div>
+                <div class="div">Cash Back</div>
+                <div class="div">Affiliate Marketing</div>
+                <div class="div">Others</div>
+            </div>
+            <div class="Company">
+                <div class="heading">Company</div>
+                <div class="div">Complaint</div>
+                <div class="div">Careers</div>
+                <div class="div">Add-on Services</div>
+                <div class="div">Support</div>
+            </div>
+            <div class="Get Help">
+                <div class="heading">Get Help</div>
+                <div class="div">Help Center</div>
+                <div class="div">Privacy Policy</div>
+                <div class="div">Terms & Conditions</div>
+                <div class="div">Login</div>
+            </div>
+        </div>
+        <div class="footer3">Copyright © <h4>Ambika Ghosh</h4> 2023-2028</div>
+    </footer>
+    <!-- <script src="./script.js">
+        let formBtn = document.querySelector('#login-btn');
+        let loginForm = document.querySelector('.login-form-container');
+        let formClose = document.querySelector('#form-close');
+
+        formBtn.addEventListener('click', () => {
+            loginForm.classList.add('active');
+        });
+        formClose.addEventListener('click', () => {
+            loginForm.classList.remove('active');
+        });
+    </script> -->
+</body>
+</html>

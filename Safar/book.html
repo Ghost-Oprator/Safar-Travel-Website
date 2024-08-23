@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking-Safar</title>
+    <link rel="icon" href="./favicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./book.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="top-container">
+        <div class="back-arrow">
+            <a href="./intro.html"><i class="fa-solid fa-arrow-left"></i></a>
+        </div>
+        <div class="heading00">
+            <h1>BOOK YOUR TRIP</h1>
+        </div>
+    </div>
+    <div class="form-container">
+        <form action="" id="myform">
+            <div class="form-head">SAFAR-TRAVEL</div>
+            <br>
+            <fieldset>
+                <Legend>Personal Details</Legend>
+                <label for="">Name:</label>
+                <input type="text" name="fname" placeholder="First Name" required>
+                <input type="text" name="mname" placeholder="Middle Name">
+                <input type="text" name="lname" placeholder="Last Name">
+                <br>
+                <label for="">Email :</label>
+                <input type="email" name="email" placeholder="Enter E-mail id" required>
+                <br>
+                <label for="">Phone No.</label>
+                <input type="number" name="number" placeholder="Enter Phone No." required>
+                <br>
+                <label for="">Date Of Birth:</label>
+                <input type="date" name="dob" required>
+                <br>
+                <label for="">Address :</label>
+                <input type="text" name="Address" placeholder="Address" required>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Booking Details</legend>
+                <label for="">Booking For:</label>
+                <input type="radio"  name="gender" value="Place"/>Destination 
+                <input type="radio"  name="gender" value="Fun-zone"/>Adventure Sports
+                <br>
+                <label for="">Choose Destination:</label>
+                <select name="Destination">
+                    <option value="0">--choose your destination--</option>
+                    <option value="1">Leh,Ladakh</option>
+                    <option value="2">Gangtok</option>
+                    <option value="3">Agra</option>
+                    <option value="4">Srinagar</option>
+                    <option value="5">Goa</option>
+                    <option value="6">Kolkata</option>
+                    <option value="7">Manali</option>
+                    <option value="8">Lonavala</option>
+                    <option value="9">Amritsar</option>
+                    <option value="10">Thar Desert</option>
+                    <option value="11">Udaipur</option>
+                    <option value="12">Lakshadweep</option>
+                    <option value="13">Delhi</option>
+                    <option value="14">Varanasi</option>
+                    <option value="15">Shimla</option>
+                    <option value="16">Munnar</option>
+                    <option value="17">Jaipur</option>
+                    <option value="18">Darjeeling</option>
+                </select>
+                <br>
+                <label for="">Choose Adventure Sports:</label>
+                <select name="sports">
+                    <option value="0">--choose your Sports--</option>
+                    <option value="1">Swimming</option>
+                    <option value="2">Bungee Jumping</option>
+                    <option value="3">Horse Riding</option>
+                    <option value="4">Boating</option>
+                    <option value="5">Paragliding</option>
+                    <option value="6">Treking</option>
+                    <option value="7">Archery</option>
+                    <option value="8">Fishing</option>
+                    <option value="9">Ziplining</option>
+                    <option value="10">Camping</option>
+                    <option value="11">Golf</option>
+                    <option value="12">Rafting</option>
+                </select>
+                <br>
+                <label for="">No. of People:</label>
+                <input type="number" placeholder="No. Of People">
+                <br>
+                <label for="">Booking Date:</label>
+                <label for="">Start from-</label>
+                <input type="date" placeholder="starting from">
+                <label for="">Till-</label>
+                <input type="date">
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Documents</legend>
+                <label for="">Adhar Card:</label>
+                <input type="file" name="adhar-card" required>
+                <br>
+                <label for="">Payment slip:</label>
+                <input type="file" name="slip">
+                <br>
+                <label for="">Mode of Payment:</label>
+                <br>
+                <input type="radio"  name="pay" value="UPI"/>UPI
+                <input type="radio"  name="pay" value="card"/>Debit/Credit Card
+                <input type="radio"  name="pay" value="Cash"/>Cash Payment 
+                <input type="radio"  name="pay" value="Net"/>Net-Banking
+            </fieldset>
+            <button type="submit" class="registerbtn" onclick="pagePrint(myform)">SUBMIT</button>
+        </form>
+    </div>
+    <div class="space">
+    </div>
+    <footer>
+        <div class="footer0">
+            <h1>To Travel is to Live</h1>
+        </div>
+        <div class="footer1 ">
+            Connect with us at<div class="social-media">
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="product">
+                <div class="heading">Packages</div> 
+                <div class="div">cheapest</div>
+                <div class="div">Rating</div>
+                <div class="div">Pricing</div>
+                <div class="div">Adventure Sports</div>
+
+            </div>
+            <div class="services">
+                <div class="heading">Services</div>
+                <div class="div">Return</div>
+                <div class="div">Cash Back</div>
+                <div class="div">Affiliate Marketing</div>
+                <div class="div">Others</div>
+            </div>
+            <div class="Company">
+                <div class="heading">Company</div>
+                <div class="div">Complaint</div>
+                <div class="div">Careers</div>
+                <div class="div">Add-on Services</div>
+                <div class="div">Support</div>
+            </div>
+            <div class="Get Help">
+                <div class="heading">Get Help</div>
+                <div class="div">Help Center</div>
+                <div class="div">Privacy Policy</div>
+                <div class="div">Terms & Conditions</div>
+                <div class="div">Login</div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function pagePrint(myform){
+            var printdata=document.getElementById("myform");
+            newwin=window.open("");
+            newwin.document.write(printdata.outerHTML);
+            newwin.print();
+            newwin.close();
+        }
+    </script> 
+</body>
+</html>
